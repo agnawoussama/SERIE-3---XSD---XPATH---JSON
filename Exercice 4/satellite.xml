@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!--
+    
+Q1 : /emissions/satellite[@nomsat="HotBird"]/chaine/@nomch
+Q2 : //chaine[number(translate(@dateLancement,'/','')) > 20010101]/@nomch
+Q3 : count(//satellite[@nomsat="NileSat"]/chaine)
+Q4 : <xs:complexType> signifie qu'il contient d'autres éléments.
+     <xs:sequence> spécifie que les éléments enfants doivent apparaître dans une séquence.
+
+-->
+
+
+<emissions>
+	<satellite nomsat="NileSat" orbite="7° Ouest" >
+		<chaine nomch="Al Aoula" dateLancement ="1998/06/15" >
+			<frequence>12207</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+		<chaine nomch="2M Monde" dateLancement ="2001/11/10">
+			<frequence>11034</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+		<chaine nomch="Arriadia" dateLancement="2005/06/26" >
+			<frequence>11450</frequence>
+			<polarisation>H</polarisation>
+			<debit>29700</debit>
+		</chaine>
+	</satellite>
+	<satellite nomsat="HotBird" orbite="13° Est" >
+		<chaine nomch="TV 5 Monde" dateLancement="2001/03/15" >
+			<frequence>11200</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+		<chaine nomch="Al Aoula" dateLancement="2002/12/22" >
+			<frequence>11441</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+	</satellite>
+</emissions>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<emissions>
+	<satellite nomsat="NileSat" orbite="7° Ouest" >
+		<chaine nomch="Al Aoula" dateLancement ="15/06/1998" >
+			<frequence>12207</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+		<chaine nomch="2M Monde" dateLancement ="10/11/2001">
+			<frequence>11034</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+		<chaine nomch="Arriadia" dateLancement="26/06/2005" >
+			<frequence>11450</frequence>
+			<polarisation>H</polarisation>
+			<debit>29700</debit>
+		</chaine>
+	</satellite>
+	<satellite nomsat="HotBird" orbite="13° Est" >
+		<chaine nomch="TV 5 Monde" dateLancement="15/03/2001" >
+			<frequence>11200</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+		<chaine nomch="Al Aoula" dateLancement="22/12/2002" >
+			<frequence>11441</frequence>
+			<polarisation>V</polarisation>
+			<debit>27500</debit>
+		</chaine>
+	</satellite>
+</emissions>
+-->

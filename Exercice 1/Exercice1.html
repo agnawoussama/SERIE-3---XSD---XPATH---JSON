@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <style>
+    #myTable {
+      width: auto;
+      margin: 10px auto;
+    }
+    #myTable,
+    tr,
+    td {
+      padding: 10px;
+      border: 2px solid rgb(46, 43, 43);
+      border-collapse: collapse;
+    }
+  </style>
+  <body>
+    <h1 id="show"></h1>
+    <table id="myTable"></table>
+    <script src="scriptGalerie.js"></script>
+    <!-- <script>
+      $.getJSON("Exercice1.json", function (maGallerie) {
+        //$.each(maGallerie, function (key, value) {
+        for (const img of maGallerie.listeImages) {
+          $("#show").append(img.titre + " ");
+        }
+        //});
+        //$("#show").append(value. + " ");
+        //$("#show").html(maGallerie);
+      });
+    </script> -->
+  </body>
+</html>

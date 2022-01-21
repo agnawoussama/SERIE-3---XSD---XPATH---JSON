@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="emissions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="satellite" maxOccurs="unbounded" >
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="chaine" maxOccurs="unbounded" >
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="frequence" type="xs:int" />
+										<xs:element name="polarisation" type="xs:string" />
+<!-- Manque debit element-->			<xs:element name="debit" type="xs:int" />
+									</xs:sequence>
+									<xs:attribute name="nomch" type="xs:string" />
+									<xs:attribute name="dateLancement" type="xs:date" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="nomsat" type="xs:string" />
+						<xs:attribute name="orbite" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,21 @@
+{
+    "titreGalerie": "Galerie1",
+    "Description" : "Good Galerie",
+    "dateCreation" : "2010-05-02",
+    "listeImages" : [
+        {       
+            "titre" : "flamengo",
+            "source" : "www.photo.com/flamengo.png",
+            "texte" : "test Text alternatif 1",
+            "dateCreation" : "2010-04-07",
+            "personnesPresentes": ["yassine","ali","asmae"]            
+        },       
+        {
+            "titre" : "chat",
+            "source" : "www.photo.com/chat.png",
+            "texte" : "test Text alternatif 2",
+            "dateCreation" : "2007-09-24",
+            "personnesPresentes": ["khalid","soukaine","said"]
+        }      
+    ]   
+}
